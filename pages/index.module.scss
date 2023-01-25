@@ -1,0 +1,73 @@
+.pageHeader {
+	margin-top: 5vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bookCoverImage {
+	width: 136px;
+	height: 200px;
+	border-radius: 10px;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+}
+
+.pageTitle {
+	font-size: 24px;
+}
+
+.pageBody {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.paragraphText {
+	font-size: 16px;
+	margin: 3vw;
+	max-width: 500px;
+	line-height: 1.75;
+	color: #777;
+	margin-bottom: 25px;
+}
+
+.pageForm {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.questionTextArea {
+	margin-bottom: 15px;
+	border-radius: 10px;
+	padding: 10px;
+	width: 90%;
+	max-width: 500px;
+	height: 70px;
+}
+
+.answerSection {
+	margin-bottom: 25px;
+	width: 90%;
+	max-width: 500px;
+}
+
+.buttonSection {
+	display: flex;
+	justify-content: center;
+	gap: 15px;
+	margin-bottom: 25px;
+}
+
+.button {
+	padding: 8px 18px;
+	border: none;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+.askButton {
+	color: white;
+	background-color: black;
+}
